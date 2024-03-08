@@ -1,46 +1,63 @@
-# recipe-page
+# Frontend Mentor - Recipe page solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 
-## Recommended IDE Setup
+## Table of contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Project Setup](#project-setup)
 
-## Type Support for `.vue` Imports in TS
+## Overview
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+I have built the page using Vue. There wasn't any need to use Vue or any other front-end framework, but I have used it because it's the most comfortable tool for me. Furthermore, I haven't deployed Vite-based apps to GitHub pages yet, so it was another reason to use Vue.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### Screenshot Desktop
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+![](./screenshots/desktop.png)
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Links
 
-## Project Setup
+- [Solution URL](https://github.com/rmnkk/recipe-page)
+- [Live Site URL](https://rmnkk.github.io/recipe-page/)
 
-```sh
+## My process
+
+### Built with
+
+- [Vue](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- Custom Css Properties [Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+
+### What I learned
+
+I have learnt how to deploy Vue Vite-based app to both GitHub Pages and Vercel. I have used official Vite documentation for the [deployment](https://vitejs.dev/guide/static-deploy.html#github-pages). I have used "GitHub Actions" as a source of deployment. Configurations file for GitHub Actions with pnpm is [here](https://github.com/rmnkk/recipe-page/blob/gh-pages/.github/workflows/static.yml).
+
+## Project setup
+
+If you want to test the project on your own machine
+
+### Instal dependencies
+```
 pnpm install
 ```
 
 ### Compile and Hot-Reload for Development
-
-```sh
+```
 pnpm dev
 ```
 
 ### Type-Check, Compile and Minify for Production
-
-```sh
+```
 pnpm build
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
-
-```sh
+```
 pnpm lint
 ```
