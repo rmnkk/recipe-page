@@ -26,28 +26,28 @@
   font-family: 'Outfit';
   font-weight: 700;
   font-style: normal;
-  src: url('@/assets/fonts/Outfit-Bold.ttf') format('truetype');
+  src: url('./fonts/Outfit-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Outfit';
   font-weight: 400;
   font-style: normal;
-  src: url('@/assets/fonts/Outfit-Regular.ttf') format('truetype');
+  src: url('./fonts/Outfit-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Outfit';
   font-weight: 600;
   font-style: normal;
-  src: url('@/assets/fonts/Outfit-Semibold.ttf') format('truetype');
+  src: url('./fonts/Outfit-Semibold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'YoungSerif';
   font-weight: normal;
   font-style: normal;
-  src: url('@/assets/fonts/YoungSerif-Regular.ttf') format('truetype');
+  src: url('./fonts/YoungSerif-Regular.ttf') format('truetype');
 }
 
 
